@@ -1,3 +1,76 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-family: 'simple_printregular';
+	font-size:24pt;
+	width:100%;
+}
+
+body center {
+		width:1100px;
+		margin-left:auto;
+		margin-right:auto;
+}
+
+body * {
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'simple_printregular';
+    src: url('../assets/simple_print-webfont.woff2') format('woff2'),
+         url('../assets/simple_print-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#contacts {
+	width:800px;
+
+}
+
+.br {
+	width:100%;
+	margin-left:10px;
+	margin-right:10px;
+	background-color: #e8e8e8;
+	height:3px;
+	margin-bottom: 50px;
+}
+
+table {
+	width:100%;
+	
+}
+
+table td {
+	width:50%;
+}
+
+
+
+.small {
+	width:40%;
+	margin-top:0;
+}
+
+.icon {
+	margin-bottom: -8px;
+	margin-right:5px;
+}
+
+h1, h3 {
+	margin-top:50px;
+}
+
+h1 {
+	font-size: 120pt;
+}
+
+h3 {
+	font-size: 60pt;
+}
+
+#logo_luna {
+	width: 15%;
 }
